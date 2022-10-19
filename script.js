@@ -1,3 +1,6 @@
+alert("your fav calculator is here:");
+var name = prompt("What's your name?");
+alert("welcome"+name);
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement
